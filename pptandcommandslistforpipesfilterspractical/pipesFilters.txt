@@ -1,0 +1,133 @@
+-------------------------------------------------
+sort
+anna
+rahul
+sonia
+pranab
+
+ctrl+d
+-------------------------------------------------
+sort -r
+anna
+rahul
+sonia
+pranab
+
+ctrl+d
+----------------------------------------------------
+sort -f 
+Anna
+Manmohan
+naveen
+Ambika
+mamta
+
+ctrl + d
+-----------------------------------------------------
+
+sort -n
+9
+17
+2
+5
+
+ctrl +d
+------------------------------------------------------
+
+names.txt
+
+Amaresh Chandra Meher
+Bhabani Sankar Mishra
+Guru Prasad Pati
+Sushree Sangeeta Sahoo
+Sunita Rani Bharadwaj
+
+sort +1 -2 names.txt
+sort +2 -3 names.txt
+-------------------------------------------------------
+
+Amaresh:Chandra:Meher
+Bhabani:Sankar:Mishra
+Guru:Prasad:Pati
+Sushree:Sangeeta:Sahoo
+Sunita:Rani:Bharadwaj
+
+sort -t":" +2 -3 names2.txt
+--------------------------------------------------------
+
+e004 nikita 6000
+e007 laurene 7000
+e004 nikita 6000
+e009 annie 8000
+
+sort -u emp.txt
+--------------------------------------------------------
+
+sort -o newfile names.txt
+
+---------------------------------------------------------
+
+victoria
+ anderson 
+betty
+johnson
+ atul
+
+sort+0b -1 names3.txt
+----------------------------------------------------------
+
+test.txt
+
+b001: kane and abel:j archer
+b001: kane and abel:j archer
+b001: kane and abel:j archer
+b003: the bitter truth: s sheldon
+b003: the bitter truth: s sheldon
+b005: where eagles dare: a maclean
+b006:the ring: d steele
+b006:the ring: d steele
+b008:the almighty: I wallace
+
+uniq mast
+----------------------------------------------------------
+
+who|more
+-----------------------------------------------------------
+cut -d":" -f2 mastcut
+-----------------------------------------------------------
+
+cat test.txt|cut -d":" -f3
+------------------------------------------------------------
+first
+
+george
+victoria
+atul
+
+middle
+
+matt
+dev
+--
+
+last
+
+thomas
+peter
+nag
+
+paste first middle last
+
+----------------------------------------------------------
+
+cat test.txt|sort|tee temp|cut -d":" -f1
+cat temp
+----------------------------------------------------------
+
+bag
+This bag contains twenty apples
+
+cat bag|tr "[a-z]" "[A-Z]"
+
+-----------------------------------------------------------
+
